@@ -2,6 +2,10 @@
 
 //task 2
 
+var prompt = require("prompt-sync")();
+let taskTwo = parseInt(prompt("Enter a number"));
+const result = taskTwo % 2 === 0 ? "even" : "odd";
+console.log(result);
 //task 3
 
 //task 4
